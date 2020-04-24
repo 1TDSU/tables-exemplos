@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+.tbl-finc{
+  width: 50%;
+  border: 2px solid #53f72a;
+  background-color: #252927;
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 20px;
+}
+
+th,td{
+  border: 2px solid #53f72a;
+}
+
+td[colspan]{
+  background-color: #1c33cb;
+  text-align: center;
+}
+
+td[rowspan]{
+  background-color: #1c33cb;
+  text-align: center;
+}
+
+#tbl-striped{
+  width: 50%;
+  border: 2px solid #53f72a;
+  border-collapse: collapse;
+}
+
+#tbl-striped tr:nth-child(odd){
+  background-color: #84a17c;
+}
+
+#tbl-striped tr:nth-child(even){
+  background-color: #e2d0b9;
+}
